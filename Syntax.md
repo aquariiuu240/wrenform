@@ -2,7 +2,7 @@
 
 ## Using Wrenform
 
-To begin using wrenform in your project, add `<script src="https://cdn.jsdelivr.net/gh/aquariiuu240/wrenform/js/0-2-1.js">` to it. Next, you'll want to begin by adding the `w` class to all elements that you want to be wrendered. 
+To begin using wrenform in your project, add `<script src="https://cdn.jsdelivr.net/gh/aquariiuu240/wrenform/js/0-2-3.js">` to it. Next, you'll want to begin by adding the `w` class to all elements that you want to be wrendered. 
 
 To wrender, add this line to your javascript: `wrender(wf.defaults)`. This will run the wrendering program. `wf.defaults` is a customizable object that holds information about responsive screen sizes, measurement types (e.g. pixels, em, percentage). For a solid understanding of what is in it, I reccomend you look at the javascript file, as the object names will (in the future when I get around to it) have comments explaining what they do.
 
