@@ -1,0 +1,3 @@
+function wrender(obj){
+
+}
