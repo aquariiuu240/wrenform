@@ -2,7 +2,7 @@
 
 ## Using Wrenform
 
-To begin using wrenform in your project, add `<script src="https://cdn.jsdelivr.net/gh/aquariiuu240/wrenform/js/0-2-0.js">` to it. Next, you'll want to begin by adding the `w` class to all elements that you want to be wrendered. 
+To begin using wrenform in your project, add `<script src="https://cdn.jsdelivr.net/gh/aquariiuu240/wrenform/js/0-2-1.js">` to it. Next, you'll want to begin by adding the `w` class to all elements that you want to be wrendered. 
 
 To wrender, add this line to your javascript: `wrender(wf.defaults)`. This will run the wrendering program. `wf.defaults` is a customizable object that holds information about responsive screen sizes, measurement types (e.g. pixels, em, percentage). For a solid understanding of what is in it, I reccomend you look at the javascript file, as the object names will (in the future when I get around to it) have comments explaining what they do.
 
@@ -20,4 +20,6 @@ Cool! We did that. Now the easiest thing to do is to put some elements inside th
 
 ### Responsive design
 
-wrenform currently supports 5 different screensizes, specified in the variable `wf.defaults`. Change these as you wish, but make sure to update the variable before calling the function. 
+wrenform currently supports 5 different screensizes, specified in the variable `wf.defaults`. Change these as you wish, but make sure to update the variable before calling the function. To specify a max width, add `-sn` to your class (where `n` is a number between 1 and 5, specified in `wf.defaults`), e.g. `ecol-5 ecol-3-s2`. 
+
+You can also use the `show` and `hide` classes (the names are self explanatory) and like all classes, use the responsive modifiers.
