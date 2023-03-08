@@ -8,10 +8,12 @@ Currently, in version 0.2.0, way before I plan to release it, it's already prett
 
 ---
 
-## in the future
+## to do
 
+- align items
 - flexbox
-- a large css library (js would be for loading only what needed)
-- toggle display:none for readability
-- optimize
-- improve grid features
+- better optimization
+- better readability
+- animation
+
+
