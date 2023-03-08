@@ -4,7 +4,7 @@ Wholly unfinished so don't bother right now :)
 
 Also should be noted this was (at the time of writing) built solely for my usage (feel free to use it as well) meaning that it might be unoptimized and at times unhelpful. I'll try to fix that in the future. 
 
-Currently, in version 0.1.0, way before I plan to release it, and only an hour after starting the project, it's already pretty helpful for just quickening grid and getting custom grid sizes across the board without too much work.
+Currently, in version 0.2.0, way before I plan to release it, it's already pretty helpful for just quickening grid and getting custom grid sizes across the board without too much work.
 
 ---
 
